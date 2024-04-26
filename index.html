@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Archive</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+
+    <section class="display-container">
+        <div class="m-10">
+            <h1 class="text-center text-5xl font-semibold text-purple-950 capitalize">Search your favourite books</h1>
+        </div>
+
+        <div class="m-auto text-center text-lg">
+            <input type="text" placeholder="Please enter your book name"
+                class="p-2 m-2 rounded border border-purple-950 w-96" id="search-input" />
+            <button class="p-2 m-2 rounded border border-purple-950 w-40 text-white bg-purple-700"
+                onClick="searchBook()">Search</button>
+        </div>
+
+        <div id="loading" class="loading">
+            Loading...
+        </div>
+
+
+
+
+        <div id="search-result-count"></div>
+
+        <div id="noResult-message"></div>
+        <div id="noText-Input"></div>
+
+
+        <div class="search-container" id="search-container">
+
+
+
+
+
+        </div>
+
+    </section>
+
+
+
+    <script src="./JS/main.js"></script>
+</body>
+
+</html>
