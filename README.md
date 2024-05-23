@@ -1,6 +1,8 @@
 # Here is some UI and work shown in this repository.
 #
-## In this repository, if the user writes the book name in the input field and clicks the search button, the data will be loaded from the API and the UI will show it. If the user searches with empty input the please type your book name alert message will show. If the user's book name is not in database then no books found alert message will show. If user's search with book name input, it will show loading until data comes from API.
+[Live Preview Project](https://664ef8bfe982b9008a63cff4--storied-alfajores-9e6487.netlify.app/)
+#
+In this repository, if the user writes the book name in the input field and clicks the search button, the data will be loaded from the API and the UI will show it. If the user searches with empty input the please type your book name alert message will show. If the user's book name is not in the database then no books found alert message will show. If the user searches with book name input, it will show loading until data comes from API.
 #
 ![image](https://github.com/DeveloperOmarFaruk/JS-book-archive/assets/75971859/8718869a-ee0c-4653-88ef-f4d7e6ef9540)
 ![image](https://github.com/DeveloperOmarFaruk/JS-book-archive/assets/75971859/38eb55f1-a195-41df-87c5-ae4a0de2f056)
